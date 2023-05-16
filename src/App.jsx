@@ -1,10 +1,10 @@
-import { useState } from 'react';
 import './App.css';
+import { useState } from 'react';
 import SocialLinks from './components/links';
 
 
 function App() {
-    const [links, setLinks] = useState([
+    const [links] = useState([
         {
             name: "GitHub",
             link: 'https://github.com/Mercury002'
