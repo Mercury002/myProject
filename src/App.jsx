@@ -32,7 +32,7 @@ function App() {
             <div className="container">
                 <h1>Sokhibjon Abduganiyev</h1>
 
-                <p>I am a software developer, currently working at <a target='_blank' href="https://bulavka.uz/">Bulavka.uz</a></p>
+                <p>I am a software developer, currently working at <a target='_blank' rel="noreferrer" href="https://bulavka.uz/">Bulavka.uz</a></p>
                 <p>
                     Experienced front-end developer with over a year and a half of experience in creating web applications and websites.
                     I specialize in the development of user interfaces using modern technologies and frameworks. <br />
