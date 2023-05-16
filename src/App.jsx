@@ -36,7 +36,7 @@ function App() {
                 <p>
                     Experienced front-end developer with over a year and a half of experience in creating web applications and websites.
                     I specialize in the development of user interfaces using modern technologies and frameworks. <br />
-                    Familiar with <a href="#">HTML/PUG</a>, <a href="#">CSS/SASS/LESS</a>,  <a href="#"> JavaScript/jQuery</a>, <a href="#">Vue.js/React</a>  and other tools for creating interactive user interfaces. <br />
+                    Familiar with <span className='skills'>HTML/PUG</span>, <a>CSS/SASS/LESS</a>,  <a> JavaScript/jQuery</a>, <a>Vue.js/React</a>  and other tools for creating interactive user interfaces. <br />
                     I am looking for an opportunity to grow and develop in a company that values technological progress and innovation. <br />
                 </p>
 

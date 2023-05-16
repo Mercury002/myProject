@@ -13,7 +13,8 @@
   font-family: "Roboto Slab";
 }
 
-a {
+a,
+.skills {
   border-bottom: 1px dashed #fff;
   text-decoration: none;
   color: #fff;
