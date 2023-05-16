@@ -45,6 +45,10 @@ p {
   margin-top: 15px;
 }
 
+.links {
+  margin-top: 15px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   
 }

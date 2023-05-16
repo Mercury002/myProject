@@ -1,0 +1,15 @@
+.socialLink {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: #fff;
+    gap: 15px;
+    margin-top: 5px;
+}
+
+
+.socialLink a {
+    font-weight: 700px;
+    border-bottom: 1px dashed #ffffff96;
+    color: #ffffff96;
+}

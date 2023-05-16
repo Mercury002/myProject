@@ -1,13 +1,16 @@
 import './styles.css'
  
-const socialLinks = (props) => {
-    console.log('ad');
+const SocialLinks = (props) => {
+    let {linkObj} = props
 
     return (
-        <div> - <span>{props.name}</span></div>
+        <div className='socialLink'>
+            <span> - {linkObj.name}</span>
+            <a href={linkObj.link}> {linkObj.link}</a>
+        </div>
     )
 }
 
 
 
-export default socialLinks
+export default SocialLinks

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css';
-import socialLinks from './components/links';
+import SocialLinks from './components/links';
 
 
 function App() {
@@ -34,7 +34,7 @@ function App() {
 
                 <p>I am a software developer, currently working at <a target='_blank' href="https://bulavka.uz/">Bulavka.uz</a></p>
                 <p>
-                    Experienced front-end developer with more than six months of experience in creating web applications and websites.
+                    Experienced front-end developer with over a year and a half of experience in creating web applications and websites.
                     I specialize in the development of user interfaces using modern technologies and frameworks. <br />
                     Familiar with <a href="#">HTML/PUG</a>, <a href="#">CSS/SASS/LESS</a>,  <a href="#"> JavaScript/jQuery</a>, <a href="#">Vue.js/React</a>  and other tools for creating interactive user interfaces. <br />
                     I am looking for an opportunity to grow and develop in a company that values technological progress and innovation. <br />
@@ -45,9 +45,8 @@ function App() {
                 <h3>Find me on</h3>
 
                 <div className='links'>
-                    {/* { links.map((el, index) => <socials linkObj={el} key={index} />) } */}
                     {links.map((el, index) => {
-                        <socialLinks sohibGG={el} key={index}/>
+                        return <SocialLinks linkObj={el} key={index} />
                     })}
                 </div>
 
