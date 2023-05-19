@@ -1,16 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
+body {
+  background-color: #121212;
+}
 
 .App {
   text-align: center;
   background-color: #121212;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: #fff;
   font-family: "Roboto Slab";
+  padding: 10vh 0 5vh 0;
 }
 
 a,
@@ -50,15 +53,30 @@ p {
   margin-top: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  
+footer {
+  border-top: 1px solid #ffffff96;
+  margin-top: 15px;
+  text-align: start;
+  padding: 10px 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.footer-container {
+  display: flex;
+  gap: 15px;
+}
+
+@media (max-width: 991px) {
+  .container {
+    padding: 0 15px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .App {
+    padding: 3vh 0 3vh 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .container {
+    padding: 0 15px;
   }
 }

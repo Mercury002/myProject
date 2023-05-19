@@ -51,6 +51,14 @@ function App() {
                 </div>
 
                 <div className='mail'>Mail me at <a href="mailto:abuganiyevsoxib002@gmail.com">abuganiyevsoxib002@gmail.com</a></div>
+
+                <footer>
+                    <div className='footer-container'>
+                        <span>Sokhibjon Abduganiyev,</span>
+                        <span>2022 - present</span>
+                    </div>
+
+                </footer>
             </div>
         </div>
     );

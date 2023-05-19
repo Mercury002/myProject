@@ -7,9 +7,35 @@
     margin-top: 5px;
 }
 
+.socialLink__name {
+    white-space: nowrap;
+}
 
-.socialLink a {
-    font-weight: 700px;
-    border-bottom: 1px dashed #ffffff96;
+
+.socialLink__link {
+    font-weight: 500;
     color: #ffffff96;
+}
+
+.socialLink__link  a{
+    width: fit-content; 
+    display: block;
+    border-bottom: 1px dashed #ffffff96;
+}
+
+@media (max-width: 670px) {
+    .socialLink__link {
+        white-space: nowrap;
+        width: 300px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: start;
+    }
+}
+
+
+@media (max-width: 460px) {
+    .socialLink__link {
+        width: 200px;
+    }
 }

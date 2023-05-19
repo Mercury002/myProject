@@ -5,8 +5,11 @@ const SocialLinks = (props) => {
 
     return (
         <div className='socialLink'>
-            <span> - {linkObj.name}</span>
-            <a href={linkObj.link} target='_blank' rel="noreferrer"> {linkObj.link}</a>
+            <span className='socialLink__name' > - {linkObj.name}</span>
+            <div className='socialLink__link'>
+                <a href={linkObj.link} target='_blank' rel="noreferrer"> {linkObj.link}</a>
+            </div>
+
         </div>
     )
 }
