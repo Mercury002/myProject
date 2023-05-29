@@ -19,7 +19,7 @@ function App() {
         },
         {
             name: 'Telegram',
-            link: 'https://t.me/Pro100_Sohib'
+            link: 'https://t.me/sohibjon_abduganiyev'
         },
         {
             name: 'Steam',
